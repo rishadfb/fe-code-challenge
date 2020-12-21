@@ -1,0 +1,27 @@
+.btn {
+  border: 1px solid $slate-light;
+  border-radius: 4px;
+  color: $slate-medium;
+  background-color: white;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-flex;
+
+  .btn-text {
+    padding: 8px;
+    border-right: 1px solid $slate-light;
+  }
+
+  .btn-icon {
+    padding: 8px;
+    font-size: 9px;
+    position: relative;
+
+    span {
+      color: $btn-arrow;
+      position: absolute;
+      top: 75%;
+      right: 20%;
+    }
+  }
+}
